@@ -1,0 +1,5 @@
+#!/usr/bin/sbcl --script
+(load "~/.sbclrc")
+(load "~/prog/paean/paean.lisp")
+(in-package :oi-paean)
+(chorus)
